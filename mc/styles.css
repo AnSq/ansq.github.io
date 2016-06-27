@@ -1,0 +1,17 @@
+body {
+    margin: auto;
+    max-width: 1000px;
+    font-family: sans-serif;
+}
+
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid black;
+}
+
+
+.date_ver {
+    margin-top: 0;
+}
