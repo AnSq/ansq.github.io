@@ -5,6 +5,49 @@ body {
 }
 
 
+a {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+ul {
+    margin: 4px auto;
+    padding-left: 4px;
+    list-style-position: inside;
+}
+
+
+#contents {
+    display: inline-block;
+    padding: 4px;
+    border: 1px solid black;
+    float: right;
+    margin-left: 12px;
+}
+
+
+#contents ul {
+    margin: 0;
+}
+
+
+#contents h3 {
+    margin: 0;
+}
+
+
+#contents::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
 h2 {
     display: inline;
     margin: 0;
@@ -17,7 +60,6 @@ h3, h4 {
 
 
 p {
-    /*margin: 4px auto;*/
     margin-top: 4px;
 }
 
@@ -26,6 +68,7 @@ p {
     border-bottom: 1px solid black;
     margin-top: 40px;
     margin-bottom: 4px;
+    position: relative;
 }
 
 
@@ -37,4 +80,11 @@ p {
 
 h2, .date {
     margin-right: 24px;
+}
+
+
+.top_link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
