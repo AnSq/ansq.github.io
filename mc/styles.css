@@ -6,12 +6,35 @@ body {
 
 
 h2 {
-    margin-top: 30px;
-    margin-bottom: 4px;
-    border-bottom: 1px solid black;
+    display: inline;
+    margin: 0;
 }
 
 
-.date_ver {
-    margin-top: 0;
+h3, h4 {
+    margin-bottom: 4px;
+}
+
+
+p {
+    /*margin: 4px auto;*/
+    margin-top: 4px;
+}
+
+
+.rev_header {
+    border-bottom: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 4px;
+}
+
+
+.date, .version {
+    font-size: 14px;
+    color: #444;
+}
+
+
+h2, .date {
+    margin-right: 24px;
 }
