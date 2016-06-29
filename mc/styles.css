@@ -41,13 +41,6 @@ ul {
 }
 
 
-#contents::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-
 h2 {
     display: inline;
     margin: 0;
@@ -87,4 +80,9 @@ h2, .date {
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+
+img[width="889"][height="500"] {
+
 }
